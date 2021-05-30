@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/library/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="container-head">
+                    <a class="head-logo" href="/html/index.html">
+                        <img src="../public/image/logo.png" alt="logo">
+                    </a>
+
+                    <div class="head-search">
+                        <input type="text" class="head-input-search" placeholder="Nhập Tên Trò Chơi Để Tìm Kiếm...">
+                        <button class="fas fa-search head-submit"></button>
+                    </div>
+
+                    <div class="head-search-mobile">
+                        <input type="text" class="head-input-search-mobile" placeholder="Tìm Kiếm ">
+                        <button class="fas fa-search head-submit-mobile"></button>
+                    </div>
+
+
+                    <button onclick="myFunction()" class="head-navbar">
+                        <i class="fas fa-list "></i>
+                        <div class="header-list">
+                            <a href="" class="header-item active">BT</a>
+                            <a href="" class="header-item">Sale</a>
+                            <a href="" class="header-item">H5</a>
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </header>
+        <div class="body-container">
+            <div class="body-login">
+                <div class="body-content">
+                    <h1>Đăng Nhập</h1>
+                    <div class="form">
+                        <input type="text" placeholder="Tài khoản" />
+                        <input type="password" placeholder="Mật khẩu" />
+                    </div>
+                    <div>
+                        <button class="button">Đăng nhập </button>
+                        <a class="button" href="./registration.html">Đăng kí</a>
+                        <a class="button" href="../html/index.html">Quay về trang chủ</a>
+                    </div>
+                </div>
+                <div class="filter"></div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="container-footer">
+                <a class="footer-item " href="./index.html">
+                    <i class="fas fa-home footer-icon"></i>
+                    <div class="footer-title">Trang Chủ</div>
+                </a>
+                <a class="footer-item active-nav" href="./login.html">
+                    <i class="fas fa-user footer-icon"></i>
+                    <div class="footer-title">Đăng Nhập</div>
+                </a>
+                <a class="footer-item" href="./server.html">
+                    <i class="fas fa-list footer-icon"></i>
+                    <div class="footer-title">Máy Chủ</div>
+                </a>
+                <a class="footer-item" href="trading.html">
+                    <i class="fas fa-yen-sign footer-icon"></i>
+                    <div class="footer-title">Giao Dịch</div>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="../public/library/fontawesome-free-5.15.3-web/all.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("header-list");
+            x[0].classList.toggle('show')
+        }
+    </script>
+</body>
+
+</html>

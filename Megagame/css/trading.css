@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.body-sitemap {
+    color: #494949;
+    padding: 5px 5px 10px 5px;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.body-table {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.container-body {
+    padding-top: 55px;
+}
